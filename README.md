@@ -14,8 +14,8 @@ With npm:
 ## BalancesApi
 | Method        | Arguments     | HTTP request  |
 | ------------- |:-------------:| -----|
-| [getTokenBalances()](https://www.covalenthq.com/docs/api/#/0/Get%20token%20balances%20for%20address/USD/1)      | `chainId: **number**`, `address: **string**` | **GET**/${chainId}/address/${address}/balances_v2 |
-| [getHistoricalPortfolio()](https://www.covalenthq.com/docs/api/#/0/Get%20historical%20portfolio%20value%20over%20time/USD/1)    | `chainId: **number**`, `address: **string**`      |   **GET**/${chainId}/address/${address}/portfolio_v2 |
+| [getTokenBalances()](https://www.covalenthq.com/docs/api/#/0/Get%20token%20balances%20for%20address/USD/1)      | `chainId`: **number**, `address`: **string** | **GET**/${chainId}/address/${address}/balances_v2 |
+| [getHistoricalPortfolio()](https://www.covalenthq.com/docs/api/#/0/Get%20historical%20portfolio%20value%20over%20time/USD/1)    | `chainId`: **number**, `address`: **string**      |   **GET**/${chainId}/address/${address}/portfolio_v2 |
 
 # Authorization
 ## API key
