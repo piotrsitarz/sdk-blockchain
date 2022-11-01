@@ -1,6 +1,6 @@
 {
   "name": "sdk-blockchain",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "easy way to explore blockchain",
   "type": "module",
   "source": "src/index.ts",
@@ -16,7 +16,12 @@
     "dev": "microbundle watch",
     "build": "microbundle"
   },
-  "keywords": [],
+  "keywords": [
+    "sdk",
+    "typescript",
+    "blockchain",
+    "covalent"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
