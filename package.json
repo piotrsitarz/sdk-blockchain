@@ -1,6 +1,6 @@
 {
   "name": "sdk-blockchain",
-  "version": "0.0.0-development",
+  "version": "1.0.2",
   "description": "easy way to explore blockchain",
   "type": "module",
   "source": "src/index.ts",
