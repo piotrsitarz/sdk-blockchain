@@ -18,5 +18,6 @@ jobs:
         run: npm ci && npm run build
       - name: Publish package on NPM 📦
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm run semantic-release
