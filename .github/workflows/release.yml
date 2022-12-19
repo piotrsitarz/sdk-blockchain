@@ -16,7 +16,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - name: Install dependencies and build 🔧
         run: npm ci && npm run build
-      # - name: Publish package on NPM 📦
-      #   env:
-      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      #   run: npm run semantic-release
+      - name: Publish package on NPM 📦
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm run semantic-release
