@@ -1,6 +1,6 @@
 {
   "name": "sdk-blockchain",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "description": "easy way to explore blockchain",
   "type": "module",
   "source": "src/index.ts",
@@ -14,7 +14,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "microbundle watch",
-    "build": "microbundle"
+    "build": "microbundle",
+    "semantic-release": "semantic-release",
+    "commit": "git add -A && git-cz"
   },
   "keywords": [
     "sdk",
@@ -25,12 +27,24 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "microbundle": "0.15.0"
+    "commitizen": "^4.2.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "microbundle": "0.15.0",
+    "semantic-release": "^19.0.5"
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.1.0"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piotrsitarz/sdk-blockchain.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
 }
