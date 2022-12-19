@@ -16,9 +16,6 @@ jobs:
       - name: Install dependencies and build 🔧
         run: npm ci && npm run build
       - name: Publish package on NPM 📦
-        uses: actions/npm@v1
-        with:
-          npm-token: ${{ secrets.NPM_TOKEN }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm run semantic-release
