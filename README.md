@@ -1,6 +1,6 @@
 # Project description
 
-Simple [SDK](https://github.com/piotrsitarz/sdk-blockchain) that enables communication with the [Covalent RESTful API](https://www.covalenthq.com/docs/api/#/0/0/USD/1) bundled by [microbundle](https://www.npmjs.com/package/microbundle).
+Simple [SDK](https://www.npmjs.com/package/sdk-blockchain) that enables communication with the [Covalent RESTful API](https://www.covalenthq.com/docs/api/#/0/0/USD/1) bundled by [microbundle](https://www.npmjs.com/package/microbundle).
 
 # Installation
 
