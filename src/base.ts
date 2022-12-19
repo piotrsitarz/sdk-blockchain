@@ -20,6 +20,7 @@ export abstract class Base {
     //   "Content-Type": "application/json",
     //   "api-key": this.apiKey,
     // };
+    //test comment for checking auto publishing packages
     const config = {
       ...options,
       // headers,
