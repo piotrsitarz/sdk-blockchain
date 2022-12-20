@@ -1,6 +1,6 @@
 {
   "name": "sdk-blockchain",
-  "version": "0.0.0-development",
+  "version": "1.0.2",
   "description": "easy way to explore blockchain",
   "type": "module",
   "source": "src/index.ts",
@@ -16,7 +16,8 @@
     "dev": "microbundle watch",
     "build": "microbundle",
     "semantic-release": "semantic-release",
-    "commit": "git add -A && git-cz"
+    "cm": "git add -A && git-cz",
+    "prepare": "husky install"
   },
   "keywords": [
     "sdk",
@@ -29,8 +30,11 @@
   "devDependencies": {
     "commitizen": "^4.2.6",
     "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.2",
     "microbundle": "0.15.0",
-    "semantic-release": "^19.0.5"
+    "semantic-release": "^19.0.5",
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1"
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.1.0"
