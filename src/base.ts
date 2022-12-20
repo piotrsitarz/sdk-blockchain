@@ -21,6 +21,7 @@ export abstract class Base {
     //   "api-key": this.apiKey,
     // };
     //test comment for checking auto publishing packages
+    //test comment for fix commit
     const config = {
       ...options,
       // headers,
