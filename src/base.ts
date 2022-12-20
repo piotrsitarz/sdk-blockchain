@@ -22,6 +22,7 @@ export abstract class Base {
     // };
     //test comment for checking auto publishing packages
     //test comment for fix commit
+    //test comment for feat commit
     const config = {
       ...options,
       // headers,
