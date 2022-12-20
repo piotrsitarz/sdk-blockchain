@@ -1,4 +1,9 @@
 # Project description
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/piotrsitarz/sdk-blockchain/release.yml?branch=master)](https://github.com/piotrsitarz/sdk-blockchain)
+[![npm monthly downloads](https://img.shields.io/npm/dm/sdk-blockchain.svg)](https://www.npmjs.com/package/sdk-blockchain)
+[![NPM](https://img.shields.io/npm/l/sdk-blockchain)](https://www.npmjs.com/package/sdk-blockchain)
+[![current version](https://img.shields.io/npm/v/sdk-blockchain.svg)](https://www.npmjs.com/package/sdk-blockchain)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) 
 
 Simple [SDK](https://www.npmjs.com/package/sdk-blockchain) that enables communication with the [Covalent RESTful API](https://www.covalenthq.com/docs/api/#/0/0/USD/1) bundled by [microbundle](https://www.npmjs.com/package/microbundle).
 
